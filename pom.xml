@@ -14,8 +14,7 @@
 
     <!-- Your project's properties -->
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <apache-commons-verison>3.11</apache-commons-verison>
     </properties>
     <!-- Your project's properties -->
 
@@ -25,17 +24,17 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.11</version>
+            <version>${apache-commons-verison}</version>
         </dependency>
     </dependencies>
     <!-- Your project's dependencies -->
 
-    <!-- Plugins that you want to execute during the build of app -->
+    <!-- Plugins that you want to execute during the build of project -->
     <build>
         <plugins>
 
         </plugins>
     </build>
-    <!-- Plugins that you want to execute during the build of app -->
+    <!-- Plugins that you want to execute during the build of project -->
 
 </project>
