@@ -30,4 +30,12 @@
     </dependencies>
     <!-- Your project's dependencies -->
 
+    <!-- Plugins that you want to execute during the build of app -->
+    <build>
+        <plugins>
+
+        </plugins>
+    </build>
+    <!-- Plugins that you want to execute during the build of app -->
+
 </project>
