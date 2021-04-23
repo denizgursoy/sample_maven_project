@@ -4,15 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- Your project's information part -->
     <groupId>org.example</groupId>
     <artifactId>sample</artifactId>
     <version>0.0.1</version>
+    <packaging>jar</packaging>
+    <!-- Your project's information part -->
 
+
+    <!-- Your project's properties -->
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
+    <!-- Your project's properties -->
 
+
+    <!-- Your project's dependencies -->
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -20,5 +28,6 @@
             <version>3.11</version>
         </dependency>
     </dependencies>
+    <!-- Your project's dependencies -->
 
 </project>
